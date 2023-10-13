@@ -7,8 +7,8 @@ const userInputString = prompt(
 
 function countFlavors (inputArray) {
   const counts = {};
-  for (const num of inputArray) {
-    counts[num] = counts[num] ? counts[num] + 1 : 1;
+  for (const fav of inputArray) {
+    counts[fav] = counts[fav] ? counts[fav] + 1 : 1;
   }
   return counts; 
 }
